@@ -1,5 +1,101 @@
 html, body {
     margin: 0;
     padding: 0;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#container{
+    width: 550px;
+    border: 2px solid #C6C6C6;
+    height: 900px;
+    
+}
+
+/* Logo */
+
+header{    
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    border-bottom: 2px solid #C6C6C6;    
+}
+#user-avatar
+ {
+    
+    border-radius: 50%;
+    height:60px;
+    margin: 20px 40px;
+    
+}
+#logo{
+    height: 60px;
+    margin: 20px 40px;
+}
+
+ /* Post */
+
+
+#post {
+    /* border: 3px dotted blueviolet;     */
+    flex-direction: column;
+}
+#poster {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+#poster img {
+
+    border-radius: 50%;
+    height:60px;
+    
+}
+ 
+
+#info{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+#info h2,
+#info p {
+    margin: 5px 15px;
+}
+
+#post-photo img {
+    width: 100%;
+}
+
+/* Button */
+
+
+#like:hover,
+#coment:hover,
+#dm:hover {
+    background-color: red;
+}
+
+#like,
+#coment,
+#dm {
+    width: 34px;
+    margin: 20px 8px;    
+}
+#like{
+    margin-left: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+p{
+    margin-left: 20px;
+}
