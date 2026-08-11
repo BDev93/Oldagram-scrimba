@@ -28,3 +28,18 @@ const posts = [
     }
 ]
 
+
+
+const like = document.getElementById("like-count")
+const photo = document.getElementById("post-photo")
+
+let likeNumber = 234
+ 
+photo.addEventListener('click', function(){
+    if(likeNumber === 234){
+    likeNumber ++
+    } else {
+        likeNumber --
+    }
+    like.innerHTML = `<span>${likeNumber} likes</span>`
+})

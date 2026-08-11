@@ -80,7 +80,7 @@ header{
 #like:hover,
 #coment:hover,
 #dm:hover {
-    background-color: red;
+    opacity: 0.3;
 }
 
 #like,
